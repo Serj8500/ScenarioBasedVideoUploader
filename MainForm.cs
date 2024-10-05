@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace ScenarioBasedVideoUploader
@@ -83,6 +82,8 @@ namespace ScenarioBasedVideoUploader
             buttonDeleteScenario.Click                      += ButtonDeleteScenarioOnClick;
             
             buttonOpenMultilineInputParameterDialog.Click   += ButtonOpenMultilineInputParameterDialogOnClick; 
+            
+            _currentTabPage                                 = tabPageDebugger;
         }
 
         private void SubscribeToDebuggerEngineEvents()

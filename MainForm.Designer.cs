@@ -497,7 +497,7 @@
             // buttonSaveOnSettingsTab
             // 
             this.buttonSaveOnSettingsTab.Anchor = ( (System.Windows.Forms.AnchorStyles)( ( System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right ) ) );
-            this.buttonSaveOnSettingsTab.Location = new System.Drawing.Point( 1780, 1251 );
+            this.buttonSaveOnSettingsTab.Location = new System.Drawing.Point( 1780, 1260 );
             this.buttonSaveOnSettingsTab.Name = "buttonSaveOnSettingsTab";
             this.buttonSaveOnSettingsTab.Size = new System.Drawing.Size( 117, 36 );
             this.buttonSaveOnSettingsTab.TabIndex = 8;
@@ -507,7 +507,7 @@
             // buttonReloadOnSettingsTab
             // 
             this.buttonReloadOnSettingsTab.Anchor = ( (System.Windows.Forms.AnchorStyles)( ( System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right ) ) );
-            this.buttonReloadOnSettingsTab.Location = new System.Drawing.Point( 1627, 1251 );
+            this.buttonReloadOnSettingsTab.Location = new System.Drawing.Point( 1627, 1260 );
             this.buttonReloadOnSettingsTab.Name = "buttonReloadOnSettingsTab";
             this.buttonReloadOnSettingsTab.Size = new System.Drawing.Size( 117, 36 );
             this.buttonReloadOnSettingsTab.TabIndex = 7;
@@ -520,7 +520,7 @@
             this.textBoxSettingsOnTabSettings.Location = new System.Drawing.Point( 3, 3 );
             this.textBoxSettingsOnTabSettings.Multiline = true;
             this.textBoxSettingsOnTabSettings.Name = "textBoxSettingsOnTabSettings";
-            this.textBoxSettingsOnTabSettings.Size = new System.Drawing.Size( 1899, 1207 );
+            this.textBoxSettingsOnTabSettings.Size = new System.Drawing.Size( 1899, 1216 );
             this.textBoxSettingsOnTabSettings.TabIndex = 0;
             // 
             // MainForm
@@ -535,7 +535,7 @@
             this.Margin = new System.Windows.Forms.Padding( 4 );
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ScenarioBasedVideoUploader";
+            this.Text = "Scenario Based Video Uploader";
             this.tabControl.ResumeLayout( false );
             this.tabPageDebugger.ResumeLayout( false );
             this.groupBoxCurrentScenario.ResumeLayout( false );
